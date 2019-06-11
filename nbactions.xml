@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-jetty</actionName>
+            <displayName>jetty</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>package</goal>
+                <goal>-DskipTests=true</goal>
+                <goal>jetty:run</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>jetty</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
