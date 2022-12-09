@@ -13,7 +13,7 @@
     <!-- Change the version numbers or other configurations here -->
     <properties>
         <cxf.version>3.3.2</cxf.version>
-        <spring.version>3.2.6.RELEASE</spring.version>
+        <spring.version>6.0.0</spring.version>
         <junit.version>4.11</junit.version>
         <jetty.version>6.1.10</jetty.version>
         <compiler.srcversion>1.6</compiler.srcversion>
